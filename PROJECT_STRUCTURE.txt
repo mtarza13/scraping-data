@@ -1,0 +1,25 @@
+# Project Structure
+.
+├── api/
+│   ├── __init__.py
+│   └── fastapi_app.py
+├── core/
+│   ├── __init__.py
+│   ├── scraper.py
+│   └── storage.py
+├── utils/
+│   ├── __init__.py
+│   └── helpers.py
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── checkpoints/
+│   └── exports/
+├── tests/
+│   ├── __init__.py
+│   └── test_scraper.py
+├── main.py
+├── cli.py
+├── requirements.txt
+├── Dockerfile
+└── docker-compose.yml

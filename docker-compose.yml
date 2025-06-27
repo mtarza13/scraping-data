@@ -1,0 +1,11 @@
+# File: docker-compose.yml
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
